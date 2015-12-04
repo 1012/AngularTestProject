@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 	.config(function($mdThemingProvider) {
 		// $mdThemingProvider.definePalette('DelmarPalette',{
 			// '50': 'ffedee',

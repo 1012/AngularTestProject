@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 	.controller('MainToolsCtrl', ['$scope', '$mdSidenav', 'MainSidenavService', '$timeout','$log', function($scope, $mdSidenav, MainSidenavService, $timeout, $log) {
 	 var allMaintools = [];
   

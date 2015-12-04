@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 	.service('MainSidenavService', ['$http', '$log', '$timeout', '$q',  function($http, $log, $timeout, $q  ) {
 	var maintools = [{
       name: 'News',

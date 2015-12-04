@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 	.run(
 	[        '$rootScope', '$state', '$stateParams',
 	  function($rootScope, $state, $stateParams){

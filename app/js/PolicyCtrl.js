@@ -1,5 +1,5 @@
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 	.controller('PolicyCtrl', ['$scope', 'policyService', '$timeout','$log', function($scope, policyService, $timeout, $log) {
 	var allPolicies = [];
   

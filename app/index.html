@@ -12,15 +12,15 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
 <!--<![endif]-->
-<html lang="en", ng-app="DelmarApp" class="qp-ui" data-qp-ui="{ 'Futurizr':{ 'hasTouch': 'touch'}}"> 
+<html lang="en", ng-app="NewApp" class="qp-ui" data-qp-ui="{ 'Futurizr':{ 'hasTouch': 'touch'}}"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <title>Delmar Extranet</title>
-        <meta name="description" content="Selecting the most efficient and cost effective transportation option can be challenging. At Delmar, we work with you to create solutions that are flexible and result in the most highly reliable and customizable service in the industry. ">
-        <meta name="keywords" content="Margarita Mayoral Villa, Adriana Molano, Delmar Extranet Angularjs, Angular Material">
-		<meta name="author" content="Margarita Mayoral Villa, Adriana Molano"/>
+        <meta name="description" content=" ">
+        <meta name="keywords" content="Margarita Mayoral Villa, Angularjs, Angular Material">
+		<meta name="author" content="Margarita Mayoral Villa"/>
 		<meta name="format-detection" content="telephone=no"/>
 		<meta name="robots" content="index, follow"/>
 		
@@ -52,8 +52,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         
-		<script src="js/DelmarcargoApp.js"></script>
-		<script src="js/DelmarControllers.js"></script>
+		<script src="js/NewApp.js"></script>
+		<script src="js/NewControllers.js"></script>
 		<script src="js/MainSidenavService.js"></script>
 		<script src="js/MainToolsCtrl.js"></script>
 		<script src="js/ThemingProvider.js"></script>
@@ -229,9 +229,9 @@
 					}
 		</style>
     </head>
-    <body layout="column" ng-controller="AppCtrlDelmar" class="section-material-design md-accent qp-ui qp-ui-mask">
+    <body layout="column" ng-controller="AppCtrlNew" class="section-material-design md-accent qp-ui qp-ui-mask">
 			<!-- First toolbar for computer screen size -->
-			<md-toolbar  class="md-accent" hide-md hide-sm ng-cloak>
+			<!-- <md-toolbar  class="md-accent" hide-md hide-sm ng-cloak>
 				<div layout="row" Style="color:#004685" layout-align="space-between" >
 					<div flex="60" hide-sm>
 					</div>
@@ -306,7 +306,7 @@
 					</div>
 					
 				</div> 
-			</md-toolbar>
+			</md-toolbar> -->
 			<!-- End toolbar computer screen size -->
 			
 			<!-- Toolbar tablet screen size -->
@@ -314,7 +314,7 @@
 			<md-toolbar hide-gt-md hide-sm class="md-accent" ng-cloak>
 				<div layout="row" Style="color:#004685" layout-align="space-around" >
 					<div flex="20" layout="column" Style="padding-top: 15px;">
-						<div ng-controller="AppCtrlDelmar as ctrl2">
+						<div ng-controller="AppCtrlNew as ctrl2">
 											
 												<form ng-submit="$event.preventDefault()">
 													
@@ -344,7 +344,7 @@
 					</div>
 					<div flex="30" layout="column" Style="padding-top: 15px;">
 						<div layout="row" flex="25">
-						<div ng-controller="AppCtrlDelmar as ctrl1"  >
+						<div ng-controller="AppCtrlNew as ctrl1"  >
 											
 						
 					

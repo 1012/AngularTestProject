@@ -1,6 +1,6 @@
 'use strict';
 angular
-	.module('DelmarApp')
+	.module('NewApp')
 .config(
 	[   	  '$stateProvider', '$urlRouterProvider',
       function($stateProvider,    $urlRouterProvider) {

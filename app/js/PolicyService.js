@@ -1,4 +1,4 @@
-angular.module('DelmarApp')
+angular.module('NewApp')
 	.service('policyService', ['$q', function($q) {
 	var policies = [{
       subject: 'AMPS - Process and Structure',
